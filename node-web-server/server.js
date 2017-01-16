@@ -2,6 +2,8 @@ const express = require('express');
 
 app = express();
 
+app.use(express.static(__dirname + '/public'));
+
 app.get('/', (req, res) => {
   res.send({
     name: 'Masahiro',
@@ -22,4 +24,6 @@ app.get('/bad', (req, res) => {
   });
 });
 
-app.listen(3000);
+app.listen(3000, () => {
+  console.log('Sever is up on port 3000');
+});
