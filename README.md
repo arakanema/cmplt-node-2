@@ -21,3 +21,4 @@ learning node.js
     - mocha
     - expect
     - supertest(as 'request')
+    - rewire
