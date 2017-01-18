@@ -4,6 +4,8 @@ learning node.js
 
 ## memo
 - tips
+  - arrow function
+  - module.exports.myFunctionOrObject = () => {};
   - async is justice
   - callback, callback, callback
   - npm run test-watch
